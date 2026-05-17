@@ -30,8 +30,8 @@ int main()
 // Problem: lower bound -> smallest index such that arr[index]>=x
 
 // lb=lower_bound(v.begin(),v.end(),x)-v.begin(); //-> vector iterator
-// lb=lower_bound(arr,arr+n,x); //-> standard array version
-// lb=lower_bound(arr+firstidx,arr+secondidx,x); //-> within a window
+// lb=lower_bound(arr,arr+n,x)-arr; //-> standard array version
+// lb=lower_bound(arr+firstidx,arr+secondidx,x)-arr; //-> within a window
 
 // These snippets refer to the std::lower_bound function in C++, which is part of the <algorithm> library. It is used to perform a binary search on a sorted range to find the first element that is "not less than" (greater than or equal to) a value x.
 

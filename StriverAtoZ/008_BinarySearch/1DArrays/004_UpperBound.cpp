@@ -28,5 +28,5 @@ int main()
 // Problem: upper bound -> smallest index such that arr[index]>x
 
 // ub=upper_bound(v.begin(),v.end(),x)-v.begin(); //-> vector iterator
-// ub=upper_bound(arr,arr+n,x); //-> standard array version
-// ub=upper_bound(arr+firstidx,arr+secondidx,x); //-> within a window
+// ub=upper_bound(arr,arr+n,x)-arr; //-> standard array version
+// ub=upper_bound(arr+firstidx,arr+secondidx,x)-arr; //-> within a window
